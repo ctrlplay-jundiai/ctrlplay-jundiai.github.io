@@ -1,0 +1,65 @@
+.dev {
+	text-align: center;
+}
+
+.dev .hero {
+	width: 100vw;
+	min-height: 200px;
+	background: url('../../images/Galaxy.svg') no-repeat;
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.dev .hero h1 {
+	color: white;
+	font-size: 3.5rem;
+	cursor: default;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.dev main {
+	padding: 40px;
+}
+
+.dev main .intro h2 {
+	font-size: 28px;
+	margin-bottom: 16px;
+	line-height: 1;
+}
+
+.dev main .intro p {
+	line-height: 1.4;
+	opacity: 0.8;
+	font-size: 1rem;
+	margin-bottom: 8px;
+}
+
+.dev main .team{
+	margin-top: 24px;
+}
+
+.dev main .team .person {
+	display: flex;
+	gap: 40px;
+}
+
+.dev main .team .person .avatar {
+	aspect-ratio: 1/1;
+	object-fit: cover;
+	border-radius: 10px;
+	max-width: 80px;
+	max-height: 80px;
+}
+
+.dev main .team .person .info {
+	text-align: left;
+}
+
+.dev main .team .person .info .name{
+	font-size: 24px;
+}
