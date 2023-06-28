@@ -1,0 +1,30 @@
+.contact{
+    background-color: #462560;
+    text-align: center;
+}
+.contact .whiteTitle{
+    color: #faf3f3f9;
+}
+.contact p{
+    color: #6c6767;
+}
+.contact .contactBtn{
+    min-width: 220px;
+    min-height: 48px;
+    border-radius: 7px;
+    background-color: #45B9A8;
+    color: #faf3f3f9;
+    font-size: 18px;
+}
+
+footer{
+    background-color: #0f0f0fef;
+    text-align: center;
+}
+footer .developedBy{
+    color: #faf3f3f9;
+    font-size: 13px;
+}
+footer .developersName{
+    color: #6c6767;
+}
