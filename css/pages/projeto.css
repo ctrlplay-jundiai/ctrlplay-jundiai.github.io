@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Teko:wght@500&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+body{
+    text-align: center;
 }
 
 header.hero{
@@ -34,4 +39,64 @@ h1{
     height: 100%;
     object-fit: cover;
     z-index: -1;
+}
+
+.text{
+    margin-top: 32px;
+    gap: 8px;
+    display: grid;
+    justify-content: center;
+}
+h2{
+    font-size: 1.75em;
+}
+.text p{
+    max-width: 300px;
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.carousel{
+    position: relative;
+    margin: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carousel img{
+    border-radius: 8px;
+}
+
+.carousel button{
+    position: absolute;
+    border-radius: 64px;
+    border: none;
+    font-size: 32px;
+    padding: 8px;
+}
+.before{
+    left: 64px;
+}
+.after{
+    right: 64px;
+}
+
+footer{
+    
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    background-color: #0f0f0f;
+    color: #f0f0f0
+}
+footer h4{
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+footer p{
+    font-family: "Teko", sans-serif;
+    font-size: 12px;
 }
