@@ -26,6 +26,7 @@ h1{
     width: 100vw;
     height: 100%;
     display: flex;
+    letter-spacing: 1.5px;
     align-items: center;
     justify-content: center;
     color:white;
@@ -66,20 +67,25 @@ h2{
 }
 .carousel img{
     border-radius: 8px;
+    max-width: 300px;
+    max-height: 300px;
 }
 
-.carousel button{
+.carousel a{
     position: absolute;
     border-radius: 64px;
     border: none;
+    background-color: transparent;
     font-size: 32px;
     padding: 8px;
+    color: rgba(255,255,255,0.6);
+    text-shadow: 0 0 5px rgba(0,0,0,0.2);
 }
 .before{
-    left: 64px;
+    left: 50px;
 }
 .after{
-    right: 64px;
+    right: 50px;
 }
 
 footer{
@@ -93,7 +99,7 @@ footer{
 }
 footer h4{
     font-size: 14px;
-    letter-spacing: 1px;
+    letter-spacing: 1px;    
 }
 
 footer p{
