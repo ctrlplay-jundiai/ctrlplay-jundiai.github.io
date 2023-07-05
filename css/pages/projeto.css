@@ -76,10 +76,11 @@ h2{
     border-radius: 64px;
     border: none;
     background-color: transparent;
-    font-size: 32px;
+    font-size: 20px;
     padding: 8px;
-    color: rgba(255,255,255,0.6);
-    text-shadow: 0 0 5px rgba(0,0,0,0.2);
+    color: rgba(255, 89, 100,0.5);
+    
+   
 }
 .before{
     left: 50px;
