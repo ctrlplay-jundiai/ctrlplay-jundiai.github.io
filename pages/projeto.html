@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../css/pages/projeto.css">
     <link rel="stylesheet" href="../css/main.css">
     <script src="https://kit.fontawesome.com/31a701f672.js" crossorigin="anonymous" defer></script>
+    <script src="../js/carousel.js" defer></script>
 </head>
 <body>
     <header class="hero">
@@ -23,9 +24,21 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit perspiciatis voluptatum beatae magni aut ipsum fuga necessitatibus numquam minus deserunt.</p>
     </div>
     <div class="carousel">
-        <img src="https://circuitbest.com/wp-content/uploads/2020/07/Arduino-Bluetooth-Car-with-L293D.jpg">
-        <a href="" class="before"><i class="fa-solid fa-circle-arrow-left"></i></a>
-        <a href="" class="after"><i class="fa-solid fa-circle-arrow-right"></i></a>
+        <div class="slides">
+            <div class="slide">
+                <img src="https://placehold.co/300" alt="">
+            </div>
+            <div class="slide active">
+                <img src="https://circuitbest.com/wp-content/uploads/2020/07/Arduino-Bluetooth-Car-with-L293D.jpg">
+            </div>
+            <div class="slide">
+                <img src="https://placehold.co/302" alt="">
+            </div>
+            
+        </div>
+        
+        <button href="" class="button prev"><i class="fa-solid fa-circle-arrow-left"></i></a>
+        <button href="" class="button next"><i class="fa-solid fa-circle-arrow-right"></i></a>
     </div>
 
     <footer>
