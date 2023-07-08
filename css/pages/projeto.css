@@ -31,6 +31,7 @@
         max-height: 725px !important;
         width: 725px !important;
         height: 725px !important;
+
     }
     .carousel button{
         font-size: 50px !important;
@@ -148,19 +149,26 @@ h2{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap:6px
 }
 .slide{
-    display: none;
+    position: absolute;
+    z-index: 0;
+    opacity: 0;
+    transition: opacity 100ms ease-in-out;
+    transition-delay: 100ms;
 }
 .slide img{
     visibility: 100%;
     display: block;
     height: 100%;
     object-fit: cover;
+    object-position: center;
 }
 .slide.active{
     display: contents;
+    z-index: 1;
+    opacity: 1;
+    transition-delay: 0ms;
 }
 
 .prev{
