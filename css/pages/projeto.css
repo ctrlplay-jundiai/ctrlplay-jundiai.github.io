@@ -87,6 +87,7 @@ h1{
     color:white;
     text-shadow: 2px 2px 2px black;
     position: absolute;
+    font-family: 'Lato', 'Sans Serif';
     background-image: linear-gradient(rgba(255, 89, 100,0.7),rgba(255, 89, 100,0.1));
 
 }
@@ -105,7 +106,8 @@ h1{
 }
 h2{
     font-size: 1.75em;
-    color: #0f0f0f
+    color: #0f0f0f;
+    font-family: 'Lato', 'Sans Serif';
     
 }
 .text p{
@@ -192,7 +194,7 @@ footer h4{
     font-size: 14px;
     letter-spacing: 1px;   
     text-shadow: 2px 2px 2px black;
-
+    font-family: 'Lato', 'Sans Serif';
 }
 
 footer p{
