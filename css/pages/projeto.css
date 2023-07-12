@@ -26,9 +26,7 @@
         margin-bottom: 20px !important;
     }
     .carousel img{
-        border-radius: 16px;
-        max-width: 725px !important;
-        max-height: 725px !important;
+        border-radius: 32px !important;
         width: 725px !important;
         height: 725px !important;
 
@@ -130,8 +128,8 @@ h2{
 }
 .carousel img{
     border-radius: 8px;
-    max-width: 300px;
-    max-height: 300px;
+    width: 300px;
+    height: 300px;
 }
 
 .carousel button{
@@ -154,13 +152,14 @@ h2{
     position: absolute;
     z-index: 0;
     opacity: 0;
-    transition: opacity 100ms ease-in-out;
+    transition: opacity 200ms ease-in-out;
     transition-delay: 100ms;
 }
 .slide img{
     visibility: 100%;
     display: block;
-    height: 100%;
+    width: 300px;
+    height: 300px;
     object-fit: cover;
     object-position: center;
 }
