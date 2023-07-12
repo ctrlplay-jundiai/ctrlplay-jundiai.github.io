@@ -41,25 +41,44 @@
 
 .dev main .team{
 	margin-top: 24px;
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
 }
 
 .dev main .team .person {
 	display: flex;
-	gap: 40px;
+	align-items: center;
+	gap: 20px;
 }
 
 .dev main .team .person .avatar {
 	aspect-ratio: 1/1;
 	object-fit: cover;
 	border-radius: 10px;
-	max-width: 80px;
-	max-height: 80px;
+	max-width: 100px;
+	max-height: 100px;
 }
 
 .dev main .team .person .info {
 	text-align: left;
 }
 
+.dev main .team .person.right .info {
+	text-align: right;
+}
+
 .dev main .team .person .info .name{
 	font-size: 24px;
+}
+
+.dev main .team .person .info quote{
+	font-size: 14px;
+	line-height: 1.2;
+	opacity: 0.75;
+}
+
+.dev main .team .person .info cite{
+	font-size: 14px;
+	line-height: 1.2;
 }
