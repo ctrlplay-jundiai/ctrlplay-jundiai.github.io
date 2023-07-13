@@ -1,27 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 	<head>
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Ctrl+Tech Expo | Exposição de Projetos</title>
 		<link rel="stylesheet" href="./css/main.css" />
+		<link rel="stylesheet" href="./css/pages/home.css" />
 		<script src="./js/main.js" defer></script>
 	</head>
 	<body>
 		<header>
+			<h1>Ctrl+Tech Expo</h1>
+			<span>Exposição de Projetos</span>
 			<nav>
 				<ul>
-					<a href="/"><li>Home</li></a>
+					<a href="#" id="home-link"><li>Home</li></a>
 					<a href="./pages/robotica.html"><li>Robótica</li></a>
 					<a href="./pages/games.html"><li>Games</li></a>
 					<a href="./pages/young.html"><li>Young</li></a>
 					<a href="./pages/dev.html"><li>Desenvolvedores</li></a>
 				</ul>
-				<img src="./assets/icons/menu.svg" alt="Menu" id="menu-btn" />
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					viewBox="0 0 448 512"
+					id="menu-btn"
+				>
+					<path
+						d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"
+					/>
+				</svg>
 			</nav>
-			<h1>Ctrl+Tech Expo</h1>
-			<span>Exposição de Projetos</span>
 			<img
 				src="./assets/images/Galaxy.svg"
 				alt="Galaxy Background"
@@ -29,43 +38,49 @@
 			/>
 		</header>
 
-		<section id="intro">
-			<h2>Olá, tripulante!</h2>
-			<p>
-				✨ Bem-vindo ao primeiro Ctrl+Tech Expo! Uma feira tecnológica para
-				apresentar os projetos desenvolvidos por nossos alunos ao longo do
-				semestre 🌟🚀
-			</p>
-			<p>
-				✨ Explore o nosso site e descubra os detalhes de cada projeto. Venha
-				nos visitar e desvendar as incríveis inovações dos nossos alunos! 👨‍💻🔬
-			</p>
-		</section>
+		<main>
+			<section id="intro">
+				<h2>Olá, tripulante!</h2>
+				<p>
+					✨ Bem-vindo ao primeiro Ctrl+Tech Expo! Uma feira tecnológica para
+					apresentar os projetos desenvolvidos por nossos alunos ao longo do
+					semestre 🌟🚀
+				</p>
+				<p>
+					✨ Explore o nosso site e descubra os detalhes de cada projeto. Venha
+					nos visitar e desvendar as incríveis inovações dos nossos alunos! 👨‍💻🔬
+				</p>
+			</section>
 
-		<section id="projects">
-			<h2>Conheça nossos projetos</h2>
+			<section id="projects">
+				<h2>Conheça nossos projetos</h2>
 
-			<div class="cards">
-				<a href="./pages/robotica.html" class="card red">
-					<h3>Robótica</h3>
-					<img
-						src="./assets/images/Arduino.jpg"
-						alt="Arduino"
-						class="background"
-					/>
-				</a>
+				<div class="cards">
+					<a href="./pages/robotica.html" class="card red">
+						<h3>Robótica</h3>
+						<img
+							src="./assets/images/Arduino.jpg"
+							alt="Arduino"
+							class="background"
+						/>
+					</a>
 
-				<a href="./pages/games.html" class="card green">
-					<h3>Games</h3>
-					<img src="./assets/images/Games.jpg" alt="Games" class="background" />
-				</a>
+					<a href="./pages/games.html" class="card green">
+						<h3>Games</h3>
+						<img
+							src="./assets/images/Games.jpg"
+							alt="Games"
+							class="background"
+						/>
+					</a>
 
-				<a href="./pages/young.html" class="card purple">
-					<h3>Young</h3>
-					<img src="./assets/images/Young.jpg" alt="" class="background" />
-				</a>
-			</div>
-		</section>
+					<a href="./pages/young.html" class="card purple">
+						<h3>Young</h3>
+						<img src="./assets/images/Young.jpg" alt="" class="background" />
+					</a>
+				</div>
+			</section>
+		</main>
 
 		<section id="cta">
 			<div class="text">
