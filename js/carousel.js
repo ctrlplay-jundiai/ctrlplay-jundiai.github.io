@@ -1,22 +1,26 @@
-const buttons = document.querySelectorAll(".button")
+const buttons = document.querySelectorAll('.button')
+const next = document.querySelector('.next')
+
 buttons.forEach(button => {
-    button.addEventListener("click", () => {
-        const activeSlide = document.querySelector(".active")
-        activeSlide.classList.remove("active")
-        if(button.classList.contains("next")){
-            var change = 1
-        } else{
-            var change = -1
-        }
-        const slides = button.closest(".carousel").querySelector(".slides")
-        let newActive = [...slides.children].indexOf(activeSlide) + change
-        if(newActive < 0){
-            newActive = slides.children.length - 1
-        }else{
-            if(newActive >= slides.children.length){
-                newActive=0
-            }
-        }
-        slides.children[newActive].classList.add("active")
-    })
+	button.addEventListener('click', () => {
+		const activeSlide = document.querySelector('.active')
+		activeSlide.classList.remove('active')
+		if (button.classList.contains('next')) {
+			var change = 1
+		} else {
+			var change = -1
+		}
+		const slides = button.closest('.carousel').querySelector('.slides')
+		let newActive = [...slides.children].indexOf(activeSlide) + change
+		if (newActive < 0) {
+			newActive = slides.children.length - 1
+		} else {
+			if (newActive >= slides.children.length) {
+				newActive = 0
+			}
+		}
+		slides.children[newActive].classList.add('active')
+	})
 })
+
+window.setInterval(() => next.click(), 8000)

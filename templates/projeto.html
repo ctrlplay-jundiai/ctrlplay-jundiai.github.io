@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Título</title>
+		<title>Titulo do Projeto - Ctrl+Tech Expo</title>
 		<link rel="stylesheet" href="../css/main.css" />
 		<link rel="stylesheet" href="../css/pages/projeto.css" />
 		<script
@@ -12,67 +12,121 @@
 			defer
 		></script>
 		<script src="../js/carousel.js" defer></script>
+		<script src="../js/main.js" defer></script>
 	</head>
 	<body>
-		<header class="red">
+		<header class="green">
+			<h1>Titulo do Projeto</h1>
+			<nav>
+				<ul>
+					<a href="../index.html"><li>Home</li></a>
+					<a href="./robotica.html"><li>Robótica</li></a>
+					<a href="./games.html"><li>Games</li></a>
+					<a href="./young.html"><li>Young</li></a>
+					<a href="./dev.html"><li>Desenvolvedores</li></a>
+				</ul>
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					viewBox="0 0 448 512"
+					id="menu-btn"
+				>
+					<path
+						d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"
+					/>
+				</svg>
+			</nav>
 			<img
-				src="https://circuitbest.com/wp-content/uploads/2020/07/Arduino-Bluetooth-Car-with-L293D.jpg"
-				alt=""
+				src="../assets/images/Galaxy.svg"
+				alt="Galaxy Background"
 				class="background"
 			/>
-			<h1>CARRINHO</h1>
 		</header>
 
-		<div class="text">
-			<h2>Sobre o projeto</h2>
-			<p>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit
-				perspiciatis voluptatum beatae magni aut ipsum fuga necessitatibus
-				numquam minus deserunt.
-			</p>
-			<h2>Quem desenvolveu?</h2>
-			<p>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit
-				perspiciatis voluptatum beatae magni aut ipsum fuga necessitatibus
-				numquam minus deserunt.
-			</p>
-			<h2>Tecnologias utilizadas</h2>
-			<p>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit
-				perspiciatis voluptatum beatae magni aut ipsum fuga necessitatibus
-				numquam minus deserunt.
-			</p>
-		</div>
-		<div class="carousel">
-			<div class="slides">
-				<div class="slide active">
-					<img
-						src="https://i.ytimg.com/vi/tujih1afqiE/maxresdefault.jpg"
-						alt=""
-					/>
+		<main>
+			<div class="text">
+				<div>
+					<h2>Sobre o projeto</h2>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit
+						perspiciatis voluptatum beatae magni aut ipsum fuga necessitatibus
+						numquam minus deserunt.
+					</p>
 				</div>
-				<div class="slide">
-					<img
-						src="https://circuitbest.com/wp-content/uploads/2020/07/Arduino-Bluetooth-Car-with-L293D.jpg"
-					/>
+				<div>
+					<h2>Quem desenvolveu?</h2>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit
+						perspiciatis voluptatum beatae magni aut ipsum fuga necessitatibus
+						numquam minus deserunt.
+					</p>
 				</div>
-				<div class="slide">
-					<img
-						src="https://hackster.imgix.net/uploads/attachments/1279672/_6J0D13PgpX.blob?auto=compress&w=1600&h=1200&fit=min&fm=jpg"
-						alt=""
-					/>
+				<div>
+					<h2>Tecnologias utilizadas</h2>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit
+						perspiciatis voluptatum beatae magni aut ipsum fuga necessitatibus
+						numquam minus deserunt.
+					</p>
 				</div>
 			</div>
+			<div class="carousel">
+				<div class="slides">
+					<div class="slide active">
+						<img
+							src="https://i.ytimg.com/vi/tujih1afqiE/maxresdefault.jpg"
+							alt=""
+						/>
+					</div>
+					<div class="slide">
+						<img
+							src="https://circuitbest.com/wp-content/uploads/2020/07/Arduino-Bluetooth-Car-with-L293D.jpg"
+						/>
+					</div>
+					<div class="slide">
+						<img
+							src="https://hackster.imgix.net/uploads/attachments/1279672/_6J0D13PgpX.blob?auto=compress&w=1600&h=1200&fit=min&fm=jpg"
+							alt=""
+						/>
+					</div>
+				</div>
 
-			<a class="button prev"><i class="fa-solid fa-circle-chevron-left"></i></a>
-			<a class="button next"
-				><i class="fa-solid fa-circle-chevron-right"></i
-			></a>
-		</div>
+				<a class="button prev">
+					<i class="fa-solid fa-circle-chevron-left"></i>
+				</a>
+
+				<a class="button next">
+					<i class="fa-solid fa-circle-chevron-right"></i>
+				</a>
+			</div>
+		</main>
+
+		<section id="cta">
+			<div class="text">
+				<h2>Gostou do Evento?</h2>
+				<p>
+					Já pensou em estudar na melhor escola de programação de Jundiaí e
+					região? Chama a gente e marque sua aula experimental gratuita!
+				</p>
+			</div>
+			<a
+				href="https://api.whatsapp.com/send?phone=5511911384094&text=Ol%C3%A1!%20Gostaria%20de%20marcar%20uma%20aula%20experimental!"
+				class="button"
+			>
+				<img src="../assets/icons/whatsapp.svg" alt="Whatsapp" />
+				Quero Ser um Programador
+			</a>
+			<img
+				src="../assets/images/Galaxy.svg"
+				alt="Background Galaxy"
+				class="background"
+			/>
+		</section>
 
 		<footer>
-			<h4>Site desenvolvido pela turma de Mentoria - Prof Daniel</h4>
-			<p>Davi A. Anschau, Pedro H. M. Figueiredo & Pedro H. R. Morales</p>
+			<span>Site desenvolvido pela turma de Mentoria - Prof Daniel</span>
+			<span class="sm"
+				>Davi A. Anschau, Pedro H. M. Figueiredo & Pedro H. R. Morales</span
+			>
 		</footer>
 	</body>
 </html>

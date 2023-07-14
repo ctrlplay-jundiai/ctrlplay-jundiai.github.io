@@ -30,31 +30,3 @@
 #projects .cards .card {
 	border-radius: 0.5rem;
 }
-
-#cta {
-	position: relative;
-	padding: var(--padding);
-	color: var(--white);
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-}
-
-#cta .text {
-	margin-bottom: 1rem;
-}
-
-#cta .button {
-	display: flex;
-	justify-self: center;
-	justify-content: center;
-	align-items: center;
-	gap: 0.75rem;
-	font-size: 1.2rem;
-	text-transform: uppercase;
-	font-weight: 400;
-	background: var(--button);
-	color: var(--white);
-	padding: 1rem 2rem;
-}
