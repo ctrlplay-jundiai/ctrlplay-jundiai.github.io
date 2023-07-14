@@ -1,52 +1,129 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Título</title>
-    <link rel="stylesheet" href="../../css/pages/projeto.css">
-    <link rel="stylesheet" href="../css/main.css">
-    <script src="https://kit.fontawesome.com/31a701f672.js" crossorigin="anonymous" defer></script>
-    <script src="../../js/carousel.js" defer></script>
-</head>
-<body>
-    <header class="hero">
-        <img src="/assets/images/Projetos/games/fruit.jpg" alt="">
-            <h1>FRUIT NINJA EXPLOSIVE FRUIT</h1>
-        
-    </header>
-    <div class="text">
-        <h2>Sobre o projeto</h2>
-        <p>Esse projeto foi desenvolvido levando em base o jogo Fruit Ninja, o jogo utiliza spawners por que faz a fruta nascer aleatoriamente na tela, uma variável para contar os pontos, uma programação de eixo para a espada seguir o mouse no eixo x e y, contém também uma programação para iniciar o jogo quando o botão start é pressionado e uma programação para reiniciar o jogo caso tenha mais de 10 frutas na tela.
-        </p>
-        <h2>Quem desenvolveu?</h2>
-        <p>teens 2 sábado às 13h, Davi Rodrigues Lima, Gabriel Henrique Urso, Isabela Rocha Barbosa Nicolau, Leonardo João dos Santos, Miguel da Silva Brandão.
-        </p>
-        <h2>Tecnologias utilizadas</h2>
-        <p>A plataforma utilizada foi o Game Maker, utilizamos colisões para fazer as interações entre objetos e uma variável para atualizar nossa pontuação.</p>
-    </div>
-    <div class="carousel">
-        <div class="slides">
-            <div class="slide">
-                <img src="/assets/images/Projetos/games/fruit.jpg" alt="">
-            </div>
-            <div class="slide active">
-                <img src="/assets/images/Projetos/games/fruit.jpg" alt="">
-            </div>
-            <div class="slide">
-                <img src="/assets/images/Projetos/games/fruit.jpg" alt="">
-            </div>
-            
-        </div>
-        
-        <button href="" class="button prev"><i class="fa-solid fa-circle-chevron-left"></i></a>
-        <button href="" class="button next"><i class="fa-solid fa-circle-chevron-right"></i></a>
-    </div>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Explosive Fruit - Ctrl+Tech Expo</title>
+		<link
+			rel="icon"
+			href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💫</text></svg>"
+		/>
+		<link rel="stylesheet" href="../../css/main.css" />
+		<link rel="stylesheet" href="../../css/pages/projeto.css" />
+		<script
+			src="https://kit.fontawesome.com/31a701f672.js"
+			crossorigin="anonymous"
+			defer
+		></script>
+		<script src="../../js/carousel.js" defer></script>
+		<script src="../../js/main.js" defer></script>
+	</head>
+	<body>
+		<header class="green">
+			<h1>Explosive Fruit</h1>
+			<nav>
+				<ul>
+					<a href="../../index.html"><li>Home</li></a>
+					<a href="../../pages/robotica.html"><li>Robótica</li></a>
+					<a href="../../pages/games.html"><li>Games</li></a>
+					<a href="../../pages/young.html"><li>Young</li></a>
+					<a href="../../pages/dev.html"><li>Desenvolvedores</li></a>
+				</ul>
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					viewBox="0 0 448 512"
+					id="menu-btn"
+				>
+					<path
+						d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"
+					/>
+				</svg>
+			</nav>
+			<img
+				src="../../assets/images/Projetos/games/fruit.jpg"
+				alt="Explosive Fruit Background"
+				class="background"
+			/>
+		</header>
 
-    <footer>
-        <h4>Site desenvolvido pela turma de Mentoria - Prof Daniel</h4>
-        <p>Davi A. Anschau, Pedro H. M. Figueiredo & Pedro H. R. Morales</p>
-    </footer>
-    
-</body>
+		<main>
+			<div id="text">
+				<div>
+					<h2>Sobre o projeto</h2>
+					<p>
+						Esse projeto foi desenvolvido levando em base o jogo Fruit Ninja, o
+						jogo utiliza spawners por que faz a fruta nascer aleatoriamente na
+						tela, uma variável para contar os pontos, uma programação de eixo
+						para a espada seguir o mouse no eixo x e y, contém também uma
+						programação para iniciar o jogo quando o botão start é pressionado e
+						uma programação para reiniciar o jogo caso tenha mais de 10 frutas
+						na tela.
+					</p>
+				</div>
+				<div>
+					<h2>Quem desenvolveu?</h2>
+					<p>
+						Davi Rodrigues Lima, Gabriel Henrique Urso, Isabela Rocha Barbosa
+						Nicolau, Leonardo João dos Santos, Miguel da Silva Brandão. Módulo
+						Ctrl+Teens 2
+					</p>
+				</div>
+				<div>
+					<h2>Tecnologias utilizadas</h2>
+					<p>
+						A plataforma utilizada foi o Game Maker, utilizamos colisões para
+						fazer as interações entre objetos e uma variável para atualizar
+						nossa pontuação.
+					</p>
+				</div>
+			</div>
+			<div class="carousel">
+				<div class="slides">
+					<div class="slide active">
+						<img
+							src="../../assets/images/Projetos/games/fruit.jpg"
+							alt="Explosive Fruit"
+						/>
+					</div>
+				</div>
+
+				<!-- <a class="button prev">
+					<i class="fa-solid fa-circle-chevron-left"></i>
+				</a>
+
+				<a class="button next">
+					<i class="fa-solid fa-circle-chevron-right"></i>
+				</a> -->
+			</div>
+		</main>
+
+		<section id="cta">
+			<div class="text">
+				<h2>Gostando do Evento?</h2>
+				<p>
+					Já pensou em estudar na melhor escola de programação de Jundiaí e
+					região? Chama a gente e marque sua aula experimental gratuita!
+				</p>
+			</div>
+			<a
+				href="https://api.whatsapp.com/send?phone=5511911384094&text=Ol%C3%A1!%20Gostaria%20de%20marcar%20uma%20aula%20experimental!"
+				class="button"
+			>
+				<img src="../../assets/icons/whatsapp.svg" alt="Whatsapp" />
+				Quero Ser um Programador
+			</a>
+			<img
+				src="../../assets/images/Galaxy.svg"
+				alt="Background Galaxy"
+				class="background"
+			/>
+		</section>
+
+		<footer>
+			<span>Site desenvolvido pela turma de Mentoria - Prof Daniel</span>
+			<span class="sm"
+				>Davi A. Anschau, Pedro H. M. Figueiredo & Pedro H. R. Morales</span
+			>
+		</footer>
+	</body>
 </html>
