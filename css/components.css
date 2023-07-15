@@ -91,6 +91,10 @@ header nav.reveal #menu-btn {
 	transition: 0.5s;
 }
 
+header nav .socials img {
+	margin: 0 0.4rem;
+}
+
 header span {
 	color: var(--white);
 	text-transform: uppercase;
